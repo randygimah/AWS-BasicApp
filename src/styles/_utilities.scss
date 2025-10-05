@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+body {
+  margin: $default-body-margin;
+}
+
+.read-only {
+  pointer-events: none;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}

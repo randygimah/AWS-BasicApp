@@ -1,0 +1,32 @@
+//***********************************
+// Breakpoints
+//***********************************
+$xsmall: "min-width: 23.750em"; // 380px
+$small: "min-width: 30em"; // 480px
+$medium: "min-width: 48.0625em"; // 768px
+$large: "min-width: 60em"; // 960px
+$xlarge: "min-width: 64em"; // 1024px
+$xxlarge: "min-width: 81.25em"; // 1300px
+$xxxlarge: "min-width: 90em"; // 1440px
+$xxxxlarge: "min-width: 100em"; // 1600px
+
+// Grayscale
+$white: #ffffff;
+$black: #000000;
+$midnight-whisper: #0b0c0c;
+$gentle-charcoal: #777777;
+$whispering-sands: #f3f2f1;
+$dark-grey: #505a5f;
+
+// Colours
+$plum-dusk: #532a45;
+$yellow: #fd0;
+
+// Default settings
+$default-body-margin: 0;
+
+// Branding
+$primary-dark: $plum-dusk;
+
+// Default
+$border-colour: $midnight-whisper;

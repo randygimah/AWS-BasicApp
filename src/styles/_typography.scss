@@ -1,0 +1,40 @@
+@use "variables" as *;
+
+// Typography base styles
+
+body {
+  font-family: "GDS Transport", arial, sans-serif;
+}
+
+.text {
+  &--secondary {
+    color: $dark-grey;
+  }
+
+  &--no-break {
+    white-space: nowrap;
+  }
+
+  &--align-right {
+    text-align: right;
+  }
+
+  &--lowercase {
+    text-transform: lowercase;
+  }
+}
+
+a {
+  &:focus {
+    background-color: $yellow;
+    box-shadow:
+      0 -2px $yellow,
+      0 4px $black;
+    outline: 3px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+  }
+}
